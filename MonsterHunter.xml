@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MonsterHunter>
+    <Monsters>
+        <Monster>
+            <Name>Rathalos</Name>
+            <Type>Flying Wyvern</Type>
+            <Element>Fire</Element>
+            <Weakness>Dragon, Thunder</Weakness>
+            <Habitat>Ancient Forest</Habitat>
+        </Monster>
+        
+        <Monster>
+            <Name>Diablos</Name>
+            <Type>Flying Wyvern</Type>
+            <Element>None</Element>
+            <Weakness>Ice</Weakness>
+            <Habitat>Wildspire Waste</Habitat>
+        </Monster>
+        
+        <Monster>
+            <Name>Nargacuga</Name>
+            <Type>Fanged Wyvern</Type>
+            <Element>None</Element>
+            <Weakness>Thunder</Weakness>
+            <Habitat>Coral Highlands</Habitat>
+        </Monster>
+        
+        <Monster>
+            <Name>Zinogre</Name>
+            <Type>Fanged Wyvern</Type>
+            <Element>Thunder</Element>
+            <Weakness>Ice, Water</Weakness>
+            <Habitat>Guiding Lands</Habitat>
+        </Monster>
+        
+        <Monster>
+            <Name>Rajang</Name>
+            <Type>Fanged Beast</Type>
+            <Element>Thunder</Element>
+            <Weakness>Ice</Weakness>
+            <Habitat>Volcanic Region</Habitat>
+        </Monster>
+        
+        <Monster>
+            <Name>Kushala Daora</Name>
+            <Type>Elder Dragon</Type>
+            <Element>Wind</Element>
+            <Weakness>Thunder, Dragon</Weakness>
+            <Habitat>Hoarfrost Reach</Habitat>
+        </Monster>
+        
+        <Monster>
+            <Name>Teostra</Name>
+            <Type>Elder Dragon</Type>
+            <Element>Fire</Element>
+            <Weakness>Water, Ice</Weakness>
+            <Habitat>Volcanic Region</Habitat>
+        </Monster>
+        
+        <Monster>
+            <Name>Bazelgeuse</Name>
+            <Type>Flying Wyvern</Type>
+            <Element>None</Element>
+            <Weakness>Thunder, Dragon</Weakness>
+            <Habitat>Elder's Recess</Habitat>
+        </Monster>
+        
+        <Monster>
+            <Name>Velkhana</Name>
+            <Type>Elder Dragon</Type>
+            <Element>Ice</Element>
+            <Weakness>Fire, Dragon</Weakness>
+            <Habitat>Hoarfrost Reach</Habitat>
+        </Monster>
+        
+        <Monster>
+            <Name>Glavenus</Name>
+            <Type>Brute Wyvern</Type>
+            <Element>Fire</Element>
+            <Weakness>Water, Ice</Weakness>
+            <Habitat>Ancient Forest</Habitat>
+        </Monster>
+        
+        <Monster>
+            <Name>Odogaron</Name>
+            <Type>Fanged Wyvern</Type>
+            <Element>None</Element>
+            <Weakness>Ice, Thunder</Weakness>
+            <Habitat>Rotten Vale</Habitat>
+        </Monster>
+        
+        <Monster>
+            <Name>Lunastra</Name>
+            <Type>Elder Dragon</Type>
+            <Element>Fire</Element>
+            <Weakness>Water, Ice</Weakness>
+            <Habitat>Wildspire Waste</Habitat>
+        </Monster>
+        
+        <Monster>
+            <Name>Namielle</Name>
+            <Type>Elder Dragon</Type>
+            <Element>Water</Element>
+            <Weakness>Fire, Dragon</Weakness>
+            <Habitat>Coral Highlands</Habitat>
+        </Monster>
+        
+        <Monster>
+            <Name>Brachydios</Name>
+            <Type>Brute Wyvern</Type>
+            <Element>Blast</Element>
+            <Weakness>Water, Ice</Weakness>
+            <Habitat>Wildspire Waste</Habitat>
+        </Monster>
+    </Monsters>
+</MonsterHunter>
