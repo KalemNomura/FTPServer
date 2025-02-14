@@ -17,9 +17,9 @@ const FTP_CONFIG = {
     port: 21,
 };
 
-const XML_FILE_PATH = "hotels.xml";
+const XML_FILE_PATH = "MonsterHunter.xml";
 
-app.get("/hotels", async (req, res) => {
+app.get("/MonsterHunter", async (req, res) => {
     const client = new ftp.Client();
     try {
         await client.access(FTP_CONFIG);
@@ -36,7 +36,7 @@ app.get("/hotels", async (req, res) => {
             }
 
             // Send parsed data to the frontend
-            res.json(result.hotels.hotel); // Assumes XML has a structure <hotels><hotel>...</hotel></hotels>
+            res.json(result.Monsters.Monster); // Assumes XML has a structure <hotels><hotel>...</hotel></hotels>
         });
     } catch (err) {
         console.error("Error accessing FTP server:", err);

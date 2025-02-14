@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MonsterHunter>
     <Monsters>
         <Monster>
             <Name>Rathalos</Name>
@@ -113,4 +112,3 @@
             <Habitat>Wildspire Waste</Habitat>
         </Monster>
     </Monsters>
-</MonsterHunter>
