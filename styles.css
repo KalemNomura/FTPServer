@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('wallpaper.webp'); 
+    background-size: cover; /* Make the background image cover the entire page */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fix the background image in place */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    position: relative; /* Create a stacking context */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #444;
+    position: relative; /* Ensure it is above the background image */
+    z-index: 1; /* Higher z-index to be in front */
+}
+
+#papir {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Lower z-index to be in the background */
+}
+
+#title {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+}
