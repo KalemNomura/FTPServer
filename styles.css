@@ -10,24 +10,43 @@ body {
     background-attachment: fixed; /* Fix the background image in place */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
     position: relative; /* Create a stacking context */
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h1 {
+.image-container {
+    position: relative;
+    display: inline-block;
     text-align: center;
-    margin-top: 20px;
-    color: #444;
-    position: relative; /* Ensure it is above the background image */
-    z-index: 1; /* Higher z-index to be in front */
 }
 
 #papir {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
     display: block;
     margin: auto;
+    position: relative;
+}
+
+.number {
     position: absolute;
-    top: 50%;
+    bottom: 10px;
+    right: 10px;
+    width: 20px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#displayArea {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
     left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1; /* Lower z-index to be in the background */
+    transform: translateX(-50%);
+    width: 90%; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    z-index: 1; /* Ensure it is above the papir image */
+    padding: 10px; /* Optional: Add padding for better readability */
 }
 
 #title {
@@ -37,5 +56,4 @@ h1 {
     transform: translateX(-50%);
     width: 50%; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
-    margin-top: 20px;
 }
