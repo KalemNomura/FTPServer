@@ -9,11 +9,11 @@ app.use(cors());
 app.use(express.json());
 
 const FTP_CONFIG = {
-    host: "192.168.1.240",
+    host: "127.0.0.1",
     user: "user1",
     password: "1234",
     secure: true,
-    secureOptions: { rejectUnauthorized: false }, // Acepta certificados autofirmados
+    secureOptions: { rejectUnauthorized: false }, 
     port: 21,
 };
 
@@ -24,10 +24,8 @@ app.get("/MonsterHunter", async (req, res) => {
     try {
         await client.access(FTP_CONFIG);
 
-        // Download the XML file from the FTP server
         await client.downloadTo(XML_FILE_PATH, XML_FILE_PATH);
 
-        // Read and parse the XML file
         const xmlData = fs.readFileSync(XML_FILE_PATH, "utf8");
         xml2js.parseString(xmlData, (err, result) => {
             if (err) {
@@ -35,8 +33,7 @@ app.get("/MonsterHunter", async (req, res) => {
                 return res.status(500).send("Failed to parse XML file.");
             }
 
-            // Send parsed data to the frontend
-            res.json(result.Monsters.Monster); // Assumes XML has a structure <hotels><hotel>...</hotel></hotels>
+            res.json(result.Monsters.Monster); 
         });
     } catch (err) {
         console.error("Error accessing FTP server:", err);

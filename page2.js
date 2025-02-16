@@ -24,135 +24,135 @@ async function fetchMonsters() {
         console.log("Weaknesses:", weaknesses);
         console.log("Habitats:", habitats);
 
-        const displayAreaRathalos = document.getElementById("displayAreaRathalos");
+        const DisplayAreaRajang = document.getElementById("DisplayAreaRajang");
 
         // Display the information of the first monster in each array
-        if (names.length > 0) {
+        if (names.length > 4) {
             const name = document.createElement("p");
-            name.textContent = `Name: ${names[0]}`;
-            displayAreaRathalos.appendChild(name);
+            name.textContent = `Name: ${names[4]}`;
+            DisplayAreaRajang.appendChild(name);
         }
 
-        if (types.length > 0) {
+        if (types.length > 4) {
             const type = document.createElement("p");
-            type.textContent = `Type: ${types[0]}`;
-            displayAreaRathalos.appendChild(type);
+            type.textContent = `Type: ${types[4]}`;
+            DisplayAreaRajang.appendChild(type);
         }
 
-        if (elements.length > 0) {
+        if (elements.length > 4) {
             const element = document.createElement("p");
-            element.textContent = `Element: ${elements[0]}`;
-            displayAreaRathalos.appendChild(element);
+            element.textContent = `Element: ${elements[4]}`;
+            DisplayAreaRajang.appendChild(element);
         }
 
-        if (weaknesses.length > 0) {
+        if (weaknesses.length > 4) {
             const weakness = document.createElement("p");
-            weakness.textContent = `Weakness: ${weaknesses[0]}`;
-            displayAreaRathalos.appendChild(weakness);
+            weakness.textContent = `Weakness: ${weaknesses[4]}`;
+            DisplayAreaRajang.appendChild(weakness);
         }
 
-        if (habitats.length > 0) {
+        if (habitats.length > 4) {
             const habitat = document.createElement("p");
-            habitat.textContent = `Habitat: ${habitats[0]}`;
-            displayAreaRathalos.appendChild(habitat);
+            habitat.textContent = `Habitat: ${habitats[4]}`;
+            DisplayAreaRajang.appendChild(habitat);
         }
 
-        const displayAreaDiablos = document.getElementById("displayAreaDiablos");
+        const displayAreaDiablos = document.getElementById("DisplayAreaKushala");
 
         // Display the information of the second monster in each array
-        if (names.length > 1) {
+        if (names.length > 5) {
             const name = document.createElement("p");
-            name.textContent = `Name: ${names[1]}`;
+            name.textContent = `Name: ${names[5]}`;
             displayAreaDiablos.appendChild(name);
         }
 
-        if (types.length > 1) {
+        if (types.length > 5) {
             const type = document.createElement("p");
-            type.textContent = `Type: ${types[1]}`;
+            type.textContent = `Type: ${types[5]}`;
             displayAreaDiablos.appendChild(type);
         }
 
-        if (elements.length > 1) {
+        if (elements.length > 5) {
             const element = document.createElement("p");
-            element.textContent = `Element: ${elements[1]}`;
+            element.textContent = `Element: ${elements[5]}`;
             displayAreaDiablos.appendChild(element);
         }
 
-        if (weaknesses.length > 1) {
+        if (weaknesses.length > 5) {
             const weakness = document.createElement("p");
-            weakness.textContent = `Weakness: ${weaknesses[1]}`;
+            weakness.textContent = `Weakness: ${weaknesses[5]}`;
             displayAreaDiablos.appendChild(weakness);
         }
 
-        if (habitats.length > 1) {
+        if (habitats.length > 5) {
             const habitat = document.createElement("p");
-            habitat.textContent = `Habitat: ${habitats[1]}`;
+            habitat.textContent = `Habitat: ${habitats[5]}`;
             displayAreaDiablos.appendChild(habitat);
         }
 
-        const displayAreaNargacuga = document.getElementById("displayAreaNargacuga");
+        const displayAreaNargacuga = document.getElementById("DisplayAreaTeostra");
 
         // Display the information of the third monster in each array
-        if (names.length > 2) {
+        if (names.length > 6) {
             const name = document.createElement("p");
-            name.textContent = `Name: ${names[2]}`;
+            name.textContent = `Name: ${names[6]}`;
             displayAreaNargacuga.appendChild(name);
         }
 
-        if (types.length > 2) {
+        if (types.length > 6) {
             const type = document.createElement("p");
-            type.textContent = `Type: ${types[2]}`;
+            type.textContent = `Type: ${types[6]}`;
             displayAreaNargacuga.appendChild(type);
         }
 
-        if (elements.length > 2) {
+        if (elements.length > 6) {
             const element = document.createElement("p");
-            element.textContent = `Element: ${elements[2]}`;
+            element.textContent = `Element: ${elements[6]}`;
             displayAreaNargacuga.appendChild(element);
         }
 
-        if (weaknesses.length > 2) {
+        if (weaknesses.length > 6) {
             const weakness = document.createElement("p");
-            weakness.textContent = `Weakness: ${weaknesses[2]}`;
+            weakness.textContent = `Weakness: ${weaknesses[6]}`;
             displayAreaNargacuga.appendChild(weakness);
         }
 
-        if (habitats.length > 2) {
+        if (habitats.length > 6) {
             const habitat = document.createElement("p");
-            habitat.textContent = `Habitat: ${habitats[2]}`;
+            habitat.textContent = `Habitat: ${habitats[6]}`;
             displayAreaNargacuga.appendChild(habitat);
         }
 
-        const displayAreaZinogre = document.getElementById("displayAreaZinogre");
+        const displayAreaZinogre = document.getElementById("DisplayAreaVelkana");
 
         // Display the information of the fourth monster in each array
-        if (names.length > 3) {
+        if (names.length > 7) {
             const name = document.createElement("p");
-            name.textContent = `Name: ${names[3]}`;
+            name.textContent = `Name: ${names[7]}`;
             displayAreaZinogre.appendChild(name);
         }
 
-        if (types.length > 3) {
+        if (types.length > 7) {
             const type = document.createElement("p");
-            type.textContent = `Type: ${types[3]}`;
+            type.textContent = `Type: ${types[7]}`;
             displayAreaZinogre.appendChild(type);
         }
 
-        if (elements.length > 3) {
+        if (elements.length > 7) {
             const element = document.createElement("p");
             element.textContent = `Element: ${elements[3]}`;
             displayAreaZinogre.appendChild(element);
         }
 
-        if (weaknesses.length > 3) {
+        if (weaknesses.length > 7) {
             const weakness = document.createElement("p");
-            weakness.textContent = `Weakness: ${weaknesses[3]}`;
+            weakness.textContent = `Weakness: ${weaknesses[7]}`;
             displayAreaZinogre.appendChild(weakness);
         }
 
-        if (habitats.length > 3) {
+        if (habitats.length > 7) {
             const habitat = document.createElement("p");
-            habitat.textContent = `Habitat: ${habitats[3]}`;
+            habitat.textContent = `Habitat: ${habitats[7]}`;
             displayAreaZinogre.appendChild(habitat);
         }
     } catch (error) {

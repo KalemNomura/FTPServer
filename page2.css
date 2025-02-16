@@ -28,7 +28,7 @@ body {
     top: 250px; /* Adjust this value to move the images down */
     display: flex;
     flex-direction: column;
-    gap: 50px; /* Adjust the gap between images as needed */
+    gap: 80px; /* Adjust the gap between images as needed */
     z-index: 2;
     margin-left: 50px;
 }
@@ -36,6 +36,52 @@ body {
 .monster-images img {
     width: 300px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
+}
+
+#DisplayAreaRajang {
+    width: 300px; /* Match the width of the images */
+    margin-top: -375px; /* Move the div more up */
+    text-align: left; /* Align text to the left */
+    margin-left: 400px; /* Adjust this value as needed */
+    font-size: 25px; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+#DisplayAreaKushala {
+    width: 300px; /* Match the width of the images */
+    margin-top: -375px; /* Move the div more up */
+    text-align: left; /* Align text to the left */
+    margin-left: 400px; /* Adjust this value as needed */
+    font-size: 25px; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+#DisplayAreaTeostra {
+    width: 300px; /* Match the width of the images */
+    margin-top: -375px; /* Move the div more up */
+    text-align: left; /* Align text to the left */
+    margin-left: 400px; /* Adjust this value as needed */
+    font-size: 25px; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+#DisplayAreaVelkana{
+    width: 300px; /* Match the width of the images */
+    margin-top: -375px; /* Move the div more up */
+    text-align: left; /* Align text to the left */
+    margin-left: 400px; /* Adjust this value as needed */
+    font-size: 25px; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+#nextPage {
+    position: absolute;
+    right: -30px; /* Adjust this value to move the image to the right */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 2;
 }
 
 #papir {
@@ -50,7 +96,7 @@ body {
     position: absolute;
     bottom: 17px;
     right: 10px;
-    width: 50px; /* Adjust the width as needed */
+    width: 20px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-right: 50px;
 }
@@ -73,16 +119,6 @@ body {
     transform: translateX(-50%);
     width: 50%; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
-}
-
-#nextPage {
-    position: absolute;
-    right: -30px; /* Adjust this value to move the image to the right */
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    z-index: 2;
 }
 
 #previousPage {

@@ -28,7 +28,7 @@ body {
     top: 250px; /* Adjust this value to move the images down */
     display: flex;
     flex-direction: column;
-    gap: 50px; /* Adjust the gap between images as needed */
+    gap: 80px; /* Adjust the gap between images as needed */
     z-index: 2;
     margin-left: 50px;
 }
@@ -38,6 +38,41 @@ body {
     height: auto; /* Maintain aspect ratio */
 }
 
+#displayAreaRathalos {
+    width: 300px; /* Match the width of the images */
+    margin-top: -375px; /* Move the div more up */
+    text-align: left; /* Align text to the left */
+    margin-left: 400px; /* Adjust this value as needed */
+    font-size: 25px; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+#displayAreaDiablos {
+    width: 300px; /* Match the width of the images */
+    margin-top: -375px; /* Move the div more up */
+    text-align: left; /* Align text to the left */
+    margin-left: 400px; /* Adjust this value as needed */
+    font-size: 25px; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+#displayAreaNargacuga {
+    width: 300px; /* Match the width of the images */
+    margin-top: -375px; /* Move the div more up */
+    text-align: left; /* Align text to the left */
+    margin-left: 400px; /* Adjust this value as needed */
+    font-size: 25px; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+#displayAreaZinogre {
+    width: 300px; /* Match the width of the images */
+    margin-top: -375px; /* Move the div more up */
+    text-align: left; /* Align text to the left */
+    margin-left: 400px; /* Adjust this value as needed */
+    font-size: 25px; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+}
 #nextPage {
     position: absolute;
     right: -30px; /* Adjust this value to move the image to the right */
