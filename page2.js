@@ -17,16 +17,9 @@ async function fetchMonsters() {
             habitats.push(Monster.Habitat);
         });
 
-        // Example of how to use these arrays
-        console.log("Names:", names);
-        console.log("Types:", types);
-        console.log("Elements:", elements);
-        console.log("Weaknesses:", weaknesses);
-        console.log("Habitats:", habitats);
-
         const DisplayAreaRajang = document.getElementById("DisplayAreaRajang");
 
-        // Display the information of the first monster in each array
+        // Display the information of Rajang
         if (names.length > 4) {
             const name = document.createElement("p");
             name.textContent = `Name: ${names[4]}`;
@@ -59,7 +52,7 @@ async function fetchMonsters() {
 
         const displayAreaDiablos = document.getElementById("DisplayAreaKushala");
 
-        // Display the information of the second monster in each array
+        // Display the information of the Kushala Daora
         if (names.length > 5) {
             const name = document.createElement("p");
             name.textContent = `Name: ${names[5]}`;
@@ -92,7 +85,7 @@ async function fetchMonsters() {
 
         const displayAreaNargacuga = document.getElementById("DisplayAreaTeostra");
 
-        // Display the information of the third monster in each array
+        // Display the information of teostra
         if (names.length > 6) {
             const name = document.createElement("p");
             name.textContent = `Name: ${names[6]}`;
@@ -125,7 +118,7 @@ async function fetchMonsters() {
 
         const displayAreaZinogre = document.getElementById("DisplayAreaVelkana");
 
-        // Display the information of the fourth monster in each array
+        // Display the information of Velkhana
         if (names.length > 7) {
             const name = document.createElement("p");
             name.textContent = `Name: ${names[7]}`;

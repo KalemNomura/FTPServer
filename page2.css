@@ -5,12 +5,12 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('wallpaper.webp'); 
-    background-size: cover; /* Make the background image cover the entire page */
-    background-position: center; /* Center the background image */
-    background-attachment: fixed; /* Fix the background image in place */
-    background-repeat: no-repeat; /* Prevent the background image from repeating */
-    position: relative; /* Create a stacking context */
-    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    position: relative; 
+    min-height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,68 +25,68 @@ body {
 .monster-images {
     position: absolute;
     left: 0;
-    top: 250px; /* Adjust this value to move the images down */
+    top: 250px; 
     display: flex;
     flex-direction: column;
-    gap: 80px; /* Adjust the gap between images as needed */
+    gap: 80px; 
     z-index: 2;
     margin-left: 50px;
 }
 
 .monster-images img {
-    width: 300px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 300px; 
+    height: auto; 
 }
 
 #DisplayAreaRajang {
-    width: 300px; /* Match the width of the images */
-    margin-top: -375px; /* Move the div more up */
-    text-align: left; /* Align text to the left */
-    margin-left: 400px; /* Adjust this value as needed */
-    font-size: 25px; /* Increase the font size */
-    font-weight: bold; /* Make the text bold */
+    width: 300px; 
+    margin-top: -375px; 
+    text-align: left; 
+    margin-left: 400px; 
+    font-size: 25px; 
+    font-weight: bold; 
 }
 
 #DisplayAreaKushala {
-    width: 300px; /* Match the width of the images */
-    margin-top: -375px; /* Move the div more up */
-    text-align: left; /* Align text to the left */
-    margin-left: 400px; /* Adjust this value as needed */
-    font-size: 25px; /* Increase the font size */
-    font-weight: bold; /* Make the text bold */
+    width: 300px; 
+    margin-top: -375px; 
+    text-align: left; 
+    margin-left: 400px; 
+    font-size: 25px; 
+    font-weight: bold; 
 }
 
 #DisplayAreaTeostra {
-    width: 300px; /* Match the width of the images */
-    margin-top: -375px; /* Move the div more up */
-    text-align: left; /* Align text to the left */
-    margin-left: 400px; /* Adjust this value as needed */
-    font-size: 25px; /* Increase the font size */
-    font-weight: bold; /* Make the text bold */
+    width: 300px; 
+    margin-top: -375px; 
+    text-align: left; 
+    margin-left: 400px; 
+    font-size: 25px; 
+    font-weight: bold; 
 }
 
 #DisplayAreaVelkana{
-    width: 300px; /* Match the width of the images */
-    margin-top: -375px; /* Move the div more up */
-    text-align: left; /* Align text to the left */
-    margin-left: 400px; /* Adjust this value as needed */
-    font-size: 25px; /* Increase the font size */
-    font-weight: bold; /* Make the text bold */
+    width: 300px; 
+    margin-top: -375px; 
+    text-align: left; 
+    margin-left: 400px; 
+    font-size: 25px; 
+    font-weight: bold; 
 }
 
 #nextPage {
     position: absolute;
-    right: -30px; /* Adjust this value to move the image to the right */
+    right: -30px; 
     top: 50%;
     transform: translateY(-50%);
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 100px; 
+    height: auto; 
     z-index: 2;
 }
 
 #papir {
-    width: 100%; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
     display: block;
     margin: auto;
     position: relative;
@@ -96,37 +96,37 @@ body {
     position: absolute;
     bottom: 17px;
     right: 10px;
-    width: 20px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 50px; 
+    height: auto; 
     margin-right: 50px;
 }
 
 #displayArea {
     position: absolute;
-    top: 50px; /* Adjust as needed */
+    top: 50px; 
     left: 50%;
     transform: translateX(-50%);
-    width: 90%; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
-    z-index: 1; /* Ensure it is above the papir image */
-    padding: 10px; /* Optional: Add padding for better readability */
+    width: 90%; 
+    height: auto; 
+    z-index: 1; 
+    padding: 10px; 
 }
 
 #title {
     position: absolute;
-    top: 40px; /* Adjust as needed */
+    top: 40px; 
     left: 50%;
     transform: translateX(-50%);
-    width: 50%; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 50%; 
+    height: auto; 
 }
 
 #previousPage {
     position: absolute;
-    left: -30px; /* Adjust this value to move the image to the left */
+    left: -30px; 
     top: 50%;
     transform: translateY(-50%);
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 100px; 
+    height: auto; 
     z-index: 2;
 }
