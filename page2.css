@@ -22,6 +22,22 @@ body {
     text-align: center;
 }
 
+.monster-images {
+    position: absolute;
+    left: 0;
+    top: 250px; /* Adjust this value to move the images down */
+    display: flex;
+    flex-direction: column;
+    gap: 50px; /* Adjust the gap between images as needed */
+    z-index: 2;
+    margin-left: 50px;
+}
+
+.monster-images img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
 #papir {
     width: 100%; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
@@ -32,10 +48,11 @@ body {
 
 .number {
     position: absolute;
-    bottom: 10px;
+    bottom: 17px;
     right: 10px;
-    width: 20px; /* Adjust the width as needed */
+    width: 50px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
+    margin-right: 50px;
 }
 
 #displayArea {
@@ -51,9 +68,29 @@ body {
 
 #title {
     position: absolute;
-    top: 10px; /* Adjust as needed */
+    top: 40px; /* Adjust as needed */
     left: 50%;
     transform: translateX(-50%);
     width: 50%; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
+}
+
+#nextPage {
+    position: absolute;
+    right: -30px; /* Adjust this value to move the image to the right */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 2;
+}
+
+#previousPage {
+    position: absolute;
+    left: -30px; /* Adjust this value to move the image to the left */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 2;
 }

@@ -47,4 +47,21 @@
             <Weakness>Thunder, Dragon</Weakness>
             <Habitat>Hoarfrost Reach</Habitat>
         </Monster>
+
+	<Monster>
+            <Name>Teostra</Name>
+            <Type>Elder Dragon</Type>
+            <Element>Fire</Element>
+            <Weakness>Water, Ice</Weakness>
+            <Habitat>Volcanic Region</Habitat>
+        </Monster>
+
+	<Monster>
+            <Name>Velkhana</Name>
+            <Type>Elder Dragon</Type>
+            <Element>Ice</Element>
+            <Weakness>Fire, Dragon</Weakness>
+            <Habitat>Hoarfrost Reach</Habitat>
+        </Monster>
+	
     </Monsters>

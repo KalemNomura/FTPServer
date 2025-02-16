@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 const FTP_CONFIG = {
-    host: "127.0.0.1",
+    host: "192.168.1.240",
     user: "user1",
     password: "1234",
     secure: true,
