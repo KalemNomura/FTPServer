@@ -4,7 +4,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    background-image: url('wallpaper.webp'); 
+    background-image: url('../img/wallpaper.webp'); 
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed; 
@@ -38,7 +38,7 @@ body {
     height: auto; 
 }
 
-#displayAreaRathalos {
+#DisplayAreaRajang {
     width: 300px; 
     margin-top: -375px; 
     text-align: left; 
@@ -47,7 +47,7 @@ body {
     font-weight: bold; 
 }
 
-#displayAreaDiablos {
+#DisplayAreaKushala {
     width: 300px; 
     margin-top: -375px; 
     text-align: left; 
@@ -56,7 +56,7 @@ body {
     font-weight: bold; 
 }
 
-#displayAreaNargacuga {
+#DisplayAreaTeostra {
     width: 300px; 
     margin-top: -375px; 
     text-align: left; 
@@ -65,7 +65,7 @@ body {
     font-weight: bold; 
 }
 
-#displayAreaZinogre {
+#DisplayAreaVelkana{
     width: 300px; 
     margin-top: -375px; 
     text-align: left; 
@@ -96,7 +96,7 @@ body {
     position: absolute;
     bottom: 17px;
     right: 10px;
-    width: 20px; 
+    width: 50px; 
     height: auto; 
     margin-right: 50px;
 }
@@ -119,4 +119,14 @@ body {
     transform: translateX(-50%);
     width: 50%; 
     height: auto; 
+}
+
+#previousPage {
+    position: absolute;
+    left: -30px; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px; 
+    height: auto; 
+    z-index: 2;
 }
